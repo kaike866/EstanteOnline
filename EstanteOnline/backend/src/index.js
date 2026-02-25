@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
   res.send('API funcionando 🚀')
 })
 
-const MONGO_URL = 'mongodb+srv://kaikesouza1518_db_user:admin@bankprojects.xbcsnfv.mongodb.net/EstanteOnline'
+const MONGO_URL = 'LINK MONGODB'
 
 mongoose.connect(MONGO_URL)
   .then(() => {
